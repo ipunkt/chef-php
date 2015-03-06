@@ -97,4 +97,5 @@ default['php']['configure_options'] = %W{--prefix=#{php['prefix_dir']}
                                           --with-mysql-sock
                                           --with-sqlite3
                                           --with-pdo-mysql
-                                          --with-pdo-sqlite}
+                                          --with-pdo-sqlite
+                                          --enable-pcntl}
